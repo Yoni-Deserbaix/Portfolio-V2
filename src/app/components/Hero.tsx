@@ -3,16 +3,24 @@ import React from "react";
 export default function Hero() {
   return (
     <div>
-        {/* Home section  */}
-      <section className="bg-[#fff]" id="home">
-        <div className="container">
-          <div className="content">
-            <div className="hero-text">
-              <h1 data-aos="fade-up" data-aos-duration="300">
+      {/* Home section  */}
+      <section className="bg-[#fff] pt-[200px]" id="home">
+        {/* Container  */}
+        <div className="m-auto w-[70%] px-8 py-0">
+          {/* Content  */}
+          <div className="flex justify-center items-center justify-between">
+            {/* Hero text  */}
+            <div className="flex flex-col max-w-[50rem]">
+              <h1
+                className="text-5xl font-bold leading-[1.2] mb-[15px]"
+                data-aos="fade-up"
+                data-aos-duration="300"
+              >
                 Salut, <br /> je suis Yoni Deserbaix
-                <span>👋</span>
+                <span className="mt-[25px]">👋</span>
               </h1>
               <p
+                className="leading-[1.6] text-[#767676] mr-[25px]"
                 data-aos="fade-up"
                 data-aos-delay="300"
                 data-aos-duration="300"
@@ -26,48 +34,60 @@ export default function Hero() {
                 data-aos-delay="500"
                 data-aos-duration="300"
               >
+                {/* Link  */}
                 <a
+                  className="inline-block text-[whitesmoke] text-base transition-all duration-[0.2s] bg-[#767676] mr-[7px] mb-2.5 px-[0.6rem] py-[0.4rem] rounded-[15px] hover:opacity-[80%]"
                   href="http://linkedin.com/in/yoni-deserbaix"
                   target="_blank"
                   rel="noreferrer"
-                  className="social-button"
                 >
-                  <i className="bx bxl-linkedin-square"></i>
+                  {/* Social button  */}
+                  <i className="bg-transparent text-base text-[whitesmoke] translate-y-px pr-[5px] bx bxl-linkedin-square"></i>
                   LinkedIn
                 </a>
+
+                {/* Link  */}
                 <a
                   href="https://github.com/Yoni-Deserbaix"
                   rel="noreferrer"
                   target="_blank"
-                  className="social-button"
+                  className="inline-block text-[whitesmoke] text-base transition-all duration-[0.2s] bg-[#767676] mr-[7px] mb-2.5 px-[0.6rem] py-[0.4rem] rounded-[15px] hover:opacity-[80%]"
                 >
-                  <i className="bx bxl-github"></i>
+                  {/* Social button */}
+                  <i className="bg-transparent text-base text-[whitesmoke] translate-y-px pr-[5px] bx bxl-linkedin-square bx bxl-github"></i>
                   Github
                 </a>
+
+                {/* Link  */}
                 <a
                   href="mailto:yonideserbaix@gmail.com"
                   rel="noreferrer"
                   target="_blank"
-                  className="social-button"
+                  className="inline-block text-[whitesmoke] text-base transition-all duration-[0.2s] bg-[#767676] mr-[7px] mb-2.5 px-[0.6rem] py-[0.4rem] rounded-[15px] hover:opacity-[80%]"
                 >
-                  <i className="bx bxs-envelope"></i> yonideserbaix@gmail.com
+                  {/* Social button */}
+                  <i className="bg-transparent text-base text-[whitesmoke] translate-y-px pr-[5px] bx bxl-linkedin-square bx bxs-envelope"></i>{" "}
+                  yonideserbaix@gmail.com
                 </a>
                 <br />
               </span>
             </div>
-            <div className="hero-img">
+            {/* Hero image  */}
+            <div className="relative w-80 h-80 animate-[animimg_4s_ease-in-out_infinite] rounded-[50%]">
               <img
                 src="https://avatars.githubusercontent.com/u/152095147?s=500&u=9c489f53aa5a87ced472492bb63f017644c5648e&v=4"
-                className="hero-img"
+                className="flex w-80 h-80 animate-[animimg_4s_ease-in-out_infinite] rounded-[50%]"
                 alt="hero"
                 data-aos="fade-up"
                 data-aos-duration="300"
               />
             </div>
           </div>
-          <a className="hero-mouse anchor" href="#about">
-            <div className="mouse-icon">
-              <span></span>
+          {/* Hero mouse anchor  */}
+          <a className="flex justify-center mt-[350px] mb-[25px]" href="#about">
+            {/* Mouse icon  */}
+            <div className="w-[25px] h-[45px] relative text-center rounded-[15px] border-2 border-solid border-[#767676]">
+              <span className="w-[3px] h-2 block animate-[1.2s_ease_infinite_wheel-up-down] mt-0.5 mb-0 mx-auto rounded-[5px] background: $textColor -webkit-animation: 1.2s ease infinite wheel-up-down"></span>
             </div>
           </a>{" "}
         </div>
