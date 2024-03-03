@@ -1,4 +1,3 @@
-"use client"
 import React from "react";
 
 export default function Hero() {
@@ -13,7 +12,7 @@ export default function Hero() {
             {/* Hero text  */}
             <div className="flex flex-col max-w-[50rem]">
               <h1
-                className="text-5xl font-bold leading-[1.2] mb-[15px]"
+                className="text-5xl font-extrabold leading-[1.2] mb-[15px]"
                 data-aos="fade-up"
                 data-aos-duration="300"
               >
