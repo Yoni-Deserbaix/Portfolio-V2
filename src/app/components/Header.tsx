@@ -37,29 +37,29 @@ function Header() {
       <label htmlFor="check" className="navbar__burger__menu">
         <i className="bx bx-menu" id="burger__icon"></i>
       </label>
-      <ul className="navbar__ul" style={isNavbarOpen ? openNavbar : closeNavbar}>
-        <li className="navbar__li">
-          <a className="navbar__a" href="#home" onClick={handleClick}>
+      <ul className="navbar__ul float-right mr-[25px]" style={isNavbarOpen ? openNavbar : closeNavbar}>
+        <li className="navbar__li inline-block leading-[90px] mx-[5px] my-0 hover:opacity-[50%]">
+          <a className="navbar__atext-lg font-semibold transition-all duration-[0.2s] px-[13px] py-[7px] rounded-[5px]" href="#home" onClick={handleClick}>
             Accueil
           </a>
         </li>
-        <li className="navbar__li">
-          <a className="navbar__a" href="#about" onClick={handleClick}>
+        <li className="navbar__liinline-block leading-[90px] mx-[5px] my-0 hover:opacity-[50%]">
+          <a className="navbar__atext-lg font-semibold transition-all duration-[0.2s] px-[13px] py-[7px] rounded-[5px]" href="#about" onClick={handleClick}>
             A propos
           </a>
         </li>
-        <li className="navbar__li">
-          <a className="navbar__a" href="#projects" onClick={handleClick}>
+        <li className="navbar__liinline-block leading-[90px] mx-[5px] my-0 hover:opacity-[50%]">
+          <a className="navbar__atext-lg font-semibold transition-all duration-[0.2s] px-[13px] py-[7px] rounded-[5px]" href="#projects" onClick={handleClick}>
             Projets
           </a>
         </li>
-        <li className="navbar__li">
-          <a className="navbar__a" href="#skills" onClick={handleClick}>
+        <li className="navbar__liinline-block leading-[90px] mx-[5px] my-0 hover:opacity-[50%]">
+          <a className="navbar__atext-lg font-semibold transition-all duration-[0.2s] px-[13px] py-[7px] rounded-[5px]" href="#skills" onClick={handleClick}>
             Compétences
           </a>
         </li>
-        <li className="navbar__li">
-          <a className="navbar__a" href="#contact" onClick={handleClick}>
+        <li className="navbar__liinline-block leading-[90px] mx-[5px] my-0 hover:opacity-[50%]">
+          <a className="navbar__atext-lg font-semibold transition-all duration-[0.2s] px-[13px] py-[7px] rounded-[5px]" href="#contact" onClick={handleClick}>
             Contact
           </a>
         </li>
