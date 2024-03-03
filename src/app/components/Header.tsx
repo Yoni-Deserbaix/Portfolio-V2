@@ -1,6 +1,7 @@
 "use client"
 import { useState } from "react";
-// import memojiHeader from '../../assets/memoji-header.png';
+import Image from "next/image";
+import memojiHeader from '../assets/memoji-header.png';
 
 type NavbarState = {
   left: string;
@@ -25,10 +26,11 @@ function Header() {
   };
 
   return (
-    <nav className="navbar">
+    // navbar 
+    <nav className="bg-[#fff] shadow-[0 0 10px rgba(0, 0, 0, 0.1)] fixed w-full z-[1] left-0 top-0">
       <a href="#home">
         <strong className="logo">
-          {/* <img src={memojiHeader.src} alt="" /> */}
+          <Image src={memojiHeader.src} alt="memoji" width={500} height={500} className="absolute w-20 transition-all duration-[0.3s] mx-[30px] my-[5px] hover:scale-105"/>
         </strong>
       </a>
       <input type="checkbox" id="check" onChange={handleClick} />
