@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import memojiHome from "/public/assets/memoji-home.png";
+import memojiHome from '/public/assets/memoji-home.png';
 
-import "boxicons/css/boxicons.min.css";
+import 'boxicons/css/boxicons.min.css';
 
 export default function Hero() {
   return (
@@ -33,7 +33,7 @@ export default function Hero() {
                 informatique basé à Nantes. 📍
               </p>
               <span
-                className="link"
+                className="link pt-6"
                 data-aos="fade-up"
                 data-aos-delay="500"
                 data-aos-duration="300"
@@ -77,11 +77,9 @@ export default function Hero() {
               </span>
             </div>
             {/* Hero image  */}
-            <div className="relative w-80 h-80 animate-[animimg_4s_ease-in-out_infinite] rounded-[50%]">
+            <div className="relative animate-[animimg_4s_ease-in-out_infinite] rounded-[50%]">
               <Image
-                src={memojiHome.src}
-                width={2000}
-                height={2000}
+                src={memojiHome.src} width={2000} height={2000}
                 className="flex w-80 h-80 animate-[animimg_4s_ease-in-out_infinite] rounded-[50%]"
                 alt="hero"
                 data-aos="fade-up"
