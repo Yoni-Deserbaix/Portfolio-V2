@@ -1,35 +1,36 @@
 "use client"
 import React from "react";
-// import DownloadCV from "../assets/Yoni Deserbaix CV 2024.pdf";
+// import DownloadCV from "../assets/Yoni_Deserbaix_CV_2024.pdf";
+import Image from "next/image";
 import aboutPhoto from "../assets/about.jpg";
 
 export default function About() {
   return (
-    <div className="about bg-whitesmoke py-100">
+    <div className="about bg-[whitesmoke] px-0 py-[100px]">
       {/* About section */}
       <section className="container mx-auto">
         {/* About content */}
         <div className="flex justify-center items-center">
           {/* About image */}
           <div
-            className="about-img w-250 h-350 transition-transform duration-400 mr-100 rounded-25 hover:scale-102"
+            className="about-img"
             data-aos="fade-up"
             data-aos-duration="500"
           >
-            <img src={aboutPhoto.src} />
+            <Image src={aboutPhoto.src} width={250} height={350} className=" w-[250px] h-[350px] transition-transform duration-[0.4s] mr-[100px] rounded-[25px] hover:scale-[1.02]" alt="about photo"/>
           </div>
           {/* About text */}
           <div>
             <h3
-              className="about-text text-lg font-bold uppercase"
+              className="about-text text-[1.3rem] font-extrabold uppercase"
               data-aos="fade-up"
               data-aos-duration="300"
             >
-              A propos de moi
+              À propos de moi
             </h3>
 
             <p
-              className="text-2d2e32 leading-normal mt-15"
+              className="text-[#767676] leading-normal mt-15"
               data-aos="fade-up"
               data-aos-delay="300"
               data-aos-duration="300"
@@ -51,16 +52,17 @@ export default function About() {
               une perspective unique et des compétences solides à <b>vos
               projets</b> 😊!
             </p>
+        
 
             <a
               // href={DownloadCV}
-              className="DownloadCV inline-block text-whitesmoke text-base transition-all duration-200 bg-2d2e32 mr-7 mt-5 mb-2.5 px-2 py-1 rounded-15"
+              className="DownloadCV inline-block text-[whitesmoke] text-base transition-all duration-200 bg-[#767676] mr-7 mt-5 mb-2.5 p-2 rounded-xl"
               data-aos="fade-up"
               data-aos-delay="500"
               data-aos-duration="300"
             >
               Download CV{" "}
-              <i className="bg-transparent text-whitesmoke text-base transform translate-y-0.5 pr-1 bx bxs-download"></i>
+              <i className="text-[whitesmoke] text-base transform translate-y-0.5 pr-1 bx bxs-download"></i>
             </a>
           </div>
         </div>
