@@ -1,4 +1,5 @@
 import React from "react";
+import 'boxicons/css/boxicons.min.css';
 
 export default function Hero() {
   return (
@@ -12,7 +13,7 @@ export default function Hero() {
             {/* Hero text  */}
             <div className="flex flex-col max-w-[50rem]">
               <h1
-                className="text-5xl font-extrabold leading-[1.2] mb-[15px]"
+                className="text-5xl font-bold leading-[1.2] mb-[15px]"
                 data-aos="fade-up"
                 data-aos-duration="300"
               >
@@ -54,7 +55,7 @@ export default function Hero() {
                   className="inline-block text-[whitesmoke] text-base transition-all duration-[0.2s] bg-[#767676] mr-[7px] mb-2.5 px-[0.6rem] py-[0.4rem] rounded-[15px] hover:opacity-[80%]"
                 >
                   {/* Social button */}
-                  <i className="bg-transparent text-base text-[whitesmoke] translate-y-px pr-[5px] bx bxl-linkedin-square bx bxl-github"></i>
+                  <i className="bg-transparent text-base text-[whitesmoke] translate-y-px pr-[5px] bx bxl-github"></i>
                   Github
                 </a>
 
