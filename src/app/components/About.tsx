@@ -1,14 +1,14 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import aboutPhoto from "../assets/about.jpg";
+import aboutPhoto from "/public/assets/about.jpg";
 import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <div className="about bg-[whitesmoke] px-0 py-[100px]">
+    <div className="about bg-[whitesmoke] px-0 py-[100px]" id="about">
       {/* About section */}
-      <section className="container mx-auto w-2/3">
+      <section className="container flex m-auto w-2/3">
         {/* About content */}
         <div className="flex justify-center items-center">
           {/* About image */}
@@ -17,12 +17,12 @@ export default function About() {
               src={aboutPhoto.src}
               width={1000}
               height={1000}
-              className="w-0px] h-[340px] transition-transform duration-[0.4s] mr-[100px] rounded-[25px] hover:scale-[1.02]"
+              className="mw-[700px] mh-[360px] transition-transform duration-[0.4s] mr-[100px] rounded-[25px] hover:scale-[1.02]"
               alt="about photo"
             />
           </div>
           {/* About text */}
-          <div className="ml-5">
+          <div className="pl-32">
             <h3
               className="about-text text-[1.3rem] font-extrabold uppercase"
               data-aos="fade-up"
@@ -57,18 +57,16 @@ export default function About() {
               😊!
             </p>
 
-            <motion.button
-              className="inline-block text-[whitesmoke] text-base transition-all duration-200 bg-[#767676] mr-7 mt-5 mb-2.5 p-2 rounded-xl"
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.8 }}
-              role="button"
+            <a
+              className="inline-block text-[whitesmoke] text-base transition-all duration-200 bg-[#767676] mr-7 mt-5 mb-2.5 p-2 rounded-xl cursor-pointer transition-all-duration[0.3s] hover:opacity-[80%]"
+              
               onClick={() => {
                 window.open("/assets/DESERBAIX-Yoni-CV-ENI.pdf", "_blank");
               }}
             >
               Download CV{" "}
               <i className="text-[whitesmoke] text-base transform translate-y-0.5 pr-1 bx bxs-download"></i>{" "}
-            </motion.button>
+            </a>
           </div>
         </div>
       </section>

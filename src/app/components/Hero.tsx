@@ -1,5 +1,8 @@
 import React from "react";
-import 'boxicons/css/boxicons.min.css';
+import Image from "next/image";
+import memojiHome from "/public/assets/memoji-home.png";
+
+import "boxicons/css/boxicons.min.css";
 
 export default function Hero() {
   return (
@@ -75,8 +78,10 @@ export default function Hero() {
             </div>
             {/* Hero image  */}
             <div className="relative w-80 h-80 animate-[animimg_4s_ease-in-out_infinite] rounded-[50%]">
-              <img
-                src="https://avatars.githubusercontent.com/u/152095147?s=500&u=9c489f53aa5a87ced472492bb63f017644c5648e&v=4"
+              <Image
+                src={memojiHome.src}
+                width={2000}
+                height={2000}
                 className="flex w-80 h-80 animate-[animimg_4s_ease-in-out_infinite] rounded-[50%]"
                 alt="hero"
                 data-aos="fade-up"
