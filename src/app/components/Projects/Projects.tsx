@@ -1,4 +1,5 @@
 import React from "react";
+import Works from "./Works";
 
 export default function () {
   return (
@@ -20,7 +21,7 @@ export default function () {
         </span>
       </div>
 
-      {/* <Works /> */}
+      <Works />
     </section>
   );
 }
