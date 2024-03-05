@@ -22,7 +22,11 @@ const WorksItems: React.FC<WorksItemsProps> = ({ item }) => {
       data-aos="fade-up"
       data-aos-duration="300"
     >
-      <Image src={item.image} alt="" className="work-img  w-[280px] transition-[0.4s] mb-5 rounded-2xl hover:scale-110" />
+      <Image
+        src={item.image}
+        alt=""
+        className="work-img  w-[280px] transition-[0.4s] mb-5 rounded-2xl hover:scale-105"
+      />
 
       <h3 className="work-title mb-2.5">{item.title}</h3>
       <div className="item-languages flex flex-wrap mt-4">
@@ -45,8 +49,8 @@ const WorksItems: React.FC<WorksItemsProps> = ({ item }) => {
           rel="noopener noreferrer"
           className="work-button text-[#767676] inline-flex items-center gap-x-1 pr-5"
         >
-          <i className="bx bxl-github work-button-icon text-base transition-[0.4s] translate-x-1"></i>
-          Code
+          <i className="bx bxl-github work-button-icon text-base transition-[0.4s] translate-x-1 pr-1"></i>
+           Code
         </a>
       )}
       {item.demo && (
@@ -56,7 +60,8 @@ const WorksItems: React.FC<WorksItemsProps> = ({ item }) => {
           rel="noopener noreferrer"
           className="work-button text-[#767676] inline-flex items-center gap-x-1 pr-5"
         >
-          <i className="bx bx-right-arrow-alt work-button-icon text-base transition-[0.4s] translate-x-1"></i>Demo
+          <i className="bx bx-right-arrow-alt work-button-icon text-base transition-[0.4s] translate-x-1"></i>
+          Demo
         </a>
       )}
     </div>

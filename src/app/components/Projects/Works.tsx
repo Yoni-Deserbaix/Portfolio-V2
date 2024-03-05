@@ -39,7 +39,7 @@ const Works = () => {
 
   return (
     <div>
-      <div className="work-filters flex-wrap gap-x-[0.7rem] mb-[30px]">
+      <div className="work-filters flex-wrap gap-x-[0.7rem] pb-6  flex items-center justify-center">
         {projectsNav.map((item, index) => {
           return (
             <span

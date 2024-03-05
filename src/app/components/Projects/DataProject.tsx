@@ -28,7 +28,7 @@ export const projectsData: Project[] = [
     image: Work10,
     title: "MyBlog",
     category: "React",
-    languages: ["Next.JS", "TypeScript ", "Tailwind CSS"],
+    languages: ["Next.JS", "TypeScript ", "Tailwind"],
     description: "Mon blog, construit avec Next.JS, est une plateforme où je partage mes articles, mes astuces et mes expériences personnelles dans divers domaines.",
     github: "https://github.com/Yoni-Deserbaix/myblog",
     demo: "https://yoni-deserbaix-my-blog.vercel.app/",
