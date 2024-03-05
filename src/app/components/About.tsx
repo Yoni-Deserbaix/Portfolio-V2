@@ -32,7 +32,7 @@ export default function About() {
             </h3>
 
             <p
-              className="text-[#767676] leading-normal mt-15"
+              className="text-[#767676] leading-normal mt-4"
               data-aos="fade-up"
               data-aos-delay="300"
               data-aos-duration="300"
