@@ -14,6 +14,7 @@ type Project = {
   description: string;
   github: string;
   demo: string;
+  projectsData: string;
 };
 
 const Works = () => {
@@ -23,11 +24,11 @@ const Works = () => {
 
   useEffect(() => {
     if (item.name === "Tout") {
-      setProjects(projectsData);
+      setProjects(projectsData as Project[]);
     } else {
       const newProjects = projectsData.filter((project) => {
         return project.category === item.name;
-      });
+      }) as Project[];
       setProjects(newProjects);
     }
   }, [item]);
