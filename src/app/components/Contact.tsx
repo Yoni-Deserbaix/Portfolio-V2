@@ -1,13 +1,19 @@
 export default function Contact() {
   return (
-    <section className="contact bg-[$mainColor] px-0 py-[100px]" id="contact">
-      <div className="container">
+    <section className="contact py-[100px] " id="contact">
+      <div className="container w-3/5 m-auto">
         <div className="contact-content">
-          <h1 id="contact-title" data-aos="fade-up" data-aos-duration="300">
+          <h1
+            id="contact-title"
+            className="text-[1.3rem] font-extrabold uppercase"
+            data-aos="fade-up"
+            data-aos-duration="300"
+          >
             Contact
           </h1>
           <p
             id="contact-hook-sentence"
+            className="leading-normal text-[1.6rem] font-bold text-[#2d2e32] mt-20 mb-8 mx-0 text-[#767676]"
             data-aos="fade-up"
             data-aos-delay="300"
             data-aos-duration="300"
@@ -15,26 +21,26 @@ export default function Contact() {
             Une opportunité d'alternance ? Contactez-moi ! 👇
           </p>
           <div
-            className="contact-wrapper"
+            className="contact-wrapper flex justify-evenly"
             data-aos="fade-up"
             data-aos-delay="500"
             data-aos-duration="300"
           >
-            <div className="contact-container">
-              <span>
-                <i className="bx bxs-map"></i>{" "}
+            <div className="contact-container flex items-center gap-4">
+              <span className="shadow-[0_0_10px_rgba(0,0,0,0.1)] p-4 rounded-[50%]">
+                <i className="bx bxs-map text-2xl"></i>{" "}
               </span>
               <div className="contact-box">
-                <h3>Lieu</h3>
+                <h3 className="font-semibold text-[1.2rem]">Lieu</h3>
                 <p>Nantes, France</p>
               </div>
             </div>
-            <div className="contact-container">
-              <span>
-                <i className="bx bxs-envelope"></i>{" "}
+            <div className="contact-container  flex items-center gap-4">
+              <span className="shadow-[0_0_10px_rgba(0,0,0,0.1)] p-4 rounded-[50%]">
+                <i className="bx bxs-envelope text-2xl"></i>{" "}
               </span>
-              <div className="contact-box">
-                <h3>Mail</h3>
+              <div className="contact-box flex flex-col gap-2">
+                <h3 className="font-semibold text-[1.2rem]">Mail</h3>
                 <a
                   href="mailto:yonideserbaix@gmail.com"
                   rel="noreferrer"

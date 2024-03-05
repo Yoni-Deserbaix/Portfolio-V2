@@ -8,7 +8,7 @@ export default function () {
       id="projects"
     >
       <h3
-        className="section-title text-[1.3rem] font-extrabold pb-8"
+        className="section-title text-[1.3rem] font-extrabold uppercase pb-8"
         data-aos="fade-up"
         data-aos-duration="300"
       >
