@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useEffect, useState } from "react";
 import { projectsData } from "./DataProject";
 import { projectsNav } from "./DataProject";
@@ -39,14 +39,18 @@ const Works = () => {
 
   return (
     <div>
-      <div className="work-filters">
+      <div className="work-filters flex-wrap gap-x-[0.7rem] mb-[30px]">
         {projectsNav.map((item, index) => {
           return (
             <span
               onClick={(e) => {
                 handleClick(e, index);
               }}
-              className={`${active === index ? "active-work" : ""}  work-item`}
+              className={`${
+                active === index
+                  ? "active-work bg-[#767676] text-[whitesmoke] border-none"
+                  : ""
+              }  work-item cursor-pointer capitalize transition-all duration-[0.2s] border text-[#767676] mt-8 px-3 py-1 rounded-lg border-solid border-[rgba(0,0,0,0.4)] hover:bg-[#767676] hover:text-[whitesmoke] hover:border-none`}
               key={index}
             >
               {item.name}
@@ -54,7 +58,7 @@ const Works = () => {
           );
         })}
       </div>
-      <div className="work-container container grid">
+      <div className="work-container grid-cols-[repeat(2,max-content)] gap-12 grid justify-center">
         {projects.map((item) => {
           return <WorksItems item={item} key={item.id} />;
         })}
