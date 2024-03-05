@@ -1,7 +1,7 @@
 import About from "./components/About";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Contact from "./components/Projects/Contact";
+import Contact from "./components/Contact";
 import Projects from "./components/Projects/Projects";
 
 export default function Home() {

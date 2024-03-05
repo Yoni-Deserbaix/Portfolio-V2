@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section className="contact" id="contact">
+    <section className="contact bg-[$mainColor] px-0 py-[100px]" id="contact">
       <div className="container">
         <div className="contact-content">
           <h1 id="contact-title" data-aos="fade-up" data-aos-duration="300">
