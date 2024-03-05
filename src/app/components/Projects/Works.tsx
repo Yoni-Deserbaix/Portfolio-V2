@@ -16,7 +16,7 @@ type Project = {
   projectsData: string;
 };
 
-const Works = () => {
+export default function Works() {
   const [item, setItem] = useState<{ name: string }>({ name: "Tout" });
   const [projects, setProjects] = useState<Project[]>([]);
   const [active, setActive] = useState<number>(0);
@@ -65,6 +65,4 @@ const Works = () => {
       </div>
     </div>
   );
-};
-
-export default Works;
+}

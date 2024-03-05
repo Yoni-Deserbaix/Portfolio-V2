@@ -13,7 +13,7 @@ export default function Contact() {
           </h1>
           <p
             id="contact-hook-sentence"
-            className="leading-normal text-[1.6rem] font-extrabold text-[#2d2e32] mt-20 mb-8 mx-0 text-[#767676]"
+            className="leading-normal text-[1.6rem] font-extrabold text-[#2d2e32] mt-20 mb-8 mx-0"
             data-aos="fade-up"
             data-aos-delay="300"
             data-aos-duration="300"

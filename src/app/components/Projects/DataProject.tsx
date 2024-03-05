@@ -1,14 +1,14 @@
 
-import Work1 from "../../assets/work01.png";
-import Work2 from "../../assets/work02.png";
-import Work3 from "../../assets/work03.png";
-import Work4 from "../../assets/work04.png";
-import Work5 from "../../assets/work05.png";
-import Work6 from "../../assets/work06.png";
-import Work7 from "../../assets/work07.png";
-import Work8 from "../../assets/work08.png";
-import Work9 from "../../assets/work09.png";
-import Work10 from "../../assets/work10.png";
+import Work1 from "../../assets/projects/work01.png";
+import Work2 from "../../assets/projects/work02.png";
+import Work3 from "../../assets/projects/work03.png";
+import Work4 from "../../assets/projects/work04.png";
+import Work5 from "../../assets/projects/work05.png";
+import Work6 from "../../assets/projects/work06.png";
+import Work7 from "../../assets/projects/work07.png";
+import Work8 from "../../assets/projects/work08.png";
+import Work9 from "../../assets/projects/work09.png";
+import Work10 from "../../assets/projects/work10.png";
 
 
 type Project = {
