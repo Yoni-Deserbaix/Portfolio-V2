@@ -3,7 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import taiwindlogo from "../assets//languages/tailwindcss-color.svg"
+import taiwindlogo from "../assets//languages/tailwindcss-color.svg";
 export const Skills = () => {
   return (
     <section
@@ -84,7 +84,7 @@ export const Skills = () => {
                 alt="nodejs logo"
               />
               <img
-                src="https://skillicons.dev/icons?i=express"
+                src="https://cdn.simpleicons.org/express/000000"
                 height="60"
                 width={60}
                 alt="express logo"
