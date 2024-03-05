@@ -1,6 +1,6 @@
 export default function () {
   return (
-    <section className="footer">
+    <footer className="footer">
       <p> Copyright © 2024 • Make with ❤️ By Yoni Deserbaix</p>
       <div className="socials">
         <a
@@ -18,6 +18,6 @@ export default function () {
           <i className="bx bxl-github"></i>
         </a>
       </div>
-    </section>
+    </footer>
   );
 }
