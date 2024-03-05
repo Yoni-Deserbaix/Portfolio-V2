@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 type Project = {
   id: number;
-  image: string;
+  image: any;
   title: string;
   languages: string[];
   description: string;

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import memojiHome from '/public/assets/memoji-home.png';
+import memojiHome from '../assets/memoji-home.png';
 
 import 'boxicons/css/boxicons.min.css';
 

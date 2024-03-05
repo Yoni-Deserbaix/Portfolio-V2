@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import aboutPhoto from "/public/assets/about.jpg";
+import aboutPhoto from "../assets/about.jpg";
 import { motion } from "framer-motion";
 
 export default function About() {

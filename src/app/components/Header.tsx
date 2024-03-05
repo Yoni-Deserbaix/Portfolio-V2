@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import Image from "next/image";
-import memojiHeader from "/public/assets/memoji-header.png";
+import memojiHeader from "../assets/memoji-header.png";
 
 type NavbarState = {
   left: string;

@@ -1,19 +1,19 @@
 
-import Work1 from "../../../../public/assets/work01.png";
-import Work2 from "../../../../public/assets/work02.png";
-import Work3 from "../../../../public/assets/work03.png";
-import Work4 from "../../../../public/assets/work04.png";
-import Work5 from "../../../../public/assets/work05.png";
-import Work6 from "../../../../public/assets/work06.png";
-import Work7 from "../../../../public/assets/work07.png";
-import Work8 from "../../../../public/assets/work08.png";
-import Work9 from "../../../../public/assets/work09.png";
-import Work10 from "../../../../public/assets/work10.png";
+import Work1 from "../../assets/work01.png";
+import Work2 from "../../assets/work02.png";
+import Work3 from "../../assets/work03.png";
+import Work4 from "../../assets/work04.png";
+import Work5 from "../../assets/work05.png";
+import Work6 from "../../assets/work06.png";
+import Work7 from "../../assets/work07.png";
+import Work8 from "../../assets/work08.png";
+import Work9 from "../../assets/work09.png";
+import Work10 from "../../assets/work10.png";
 
 
 type Project = {
     id: number;
-    image: string;
+    image: any;
     title: string;
     category: string;
     languages: string[];

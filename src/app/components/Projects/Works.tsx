@@ -3,10 +3,11 @@ import { useEffect, useState } from "react";
 import { projectsData } from "./DataProject";
 import { projectsNav } from "./DataProject";
 import WorksItems from "./WorkItems";
+import Projects from "./Projects";
 
 type Project = {
   id: number;
-  image: string;
+  image: any;
   title: string;
   category: string;
   languages: string[];
