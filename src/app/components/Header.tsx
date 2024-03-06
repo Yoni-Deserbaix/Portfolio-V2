@@ -28,21 +28,32 @@ export default function Header() {
   return (
     // navbar
     <nav className="bg-white shadow-[0_0_10px_rgba(0,0,0,0.1)] fixed w-full z-[1] left-0 top-0">
-      <a href="#home">
+      <div className="flex items-center justify-between">
         <strong className="logo">
-          <Image
-            src={memojiHeader.src}
-            alt="memoji"
-            width={500}
-            height={500}
-            className="absolute w-20 transition-all duration-[0.3s] mx-[30px] my-[5px] hover:scale-105"
-          />
+          <a href="#home">
+            <Image
+              src={memojiHeader.src}
+              alt="memoji"
+              width={500}
+              height={500}
+              className="w-[80px] transition-all duration-[0.3s] mx-[5px] my-[30px] hover:scale-105 max-lg:mx-[15px] max-lg:my-[20px] max-lg:w-[50px]"
+            />
+          </a>
         </strong>
-      </a>
-      <input type="checkbox" id="check" onChange={handleClick} />
-      <label htmlFor="check" className="navbar__burger__menu">
-        <i className="bx bx-menu" id="burger__icon"></i>
-      </label>
+        <input
+          type="checkbox"
+          id="check"
+          className="hidden"
+          onChange={handleClick}
+        />
+        <label htmlFor="check" className="navbar__burger__menu">
+          <i
+            className="bx bx-menu float-end mr-8 px-[5px] text-center py-[7px] rounded hover:bg-[whitesmoke] text-[2rem]"
+            id="burger__icon"
+          ></i>
+        </label>
+      </div>
+
       <ul
         className="navbar__ul float-right mr-[25px] max-lg:fixed max-lg:w-full max-lg:h-[100vh] max-lg:bg-[whitesmoke] max-lg:top-20 max-lg:text-center max-lg:flex max-lg:flex-col"
         style={isNavbarOpen ? openNavbar : closeNavbar}
