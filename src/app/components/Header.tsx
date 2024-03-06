@@ -44,12 +44,12 @@ export default function Header() {
         <i className="bx bx-menu" id="burger__icon"></i>
       </label>
       <ul
-        className="navbar__ul float-right mr-[25px]"
+        className="navbar__ul float-right mr-[25px] max-lg:fixed max-lg:w-full max-lg:h-[100vh] max-lg:bg-[whitesmoke] max-lg:top-20 max-lg:text-center max-lg:flex max-lg:flex-col"
         style={isNavbarOpen ? openNavbar : closeNavbar}
       >
-        <li className="navbar__li inline-block leading-[90px] mx-[5px] my-0 transition-all-duration[0.3s] hover:scale-105">
+        <li className="navbar__li inline-block leading-[90px] mx-[5px] my-0 transition-all-duration[0.3s] hover:scale-105 max-lg:block">
           <a
-            className="navbar__a text-lg font-bold  px-[13px] py-[7px]"
+            className="navbar__a text-lg font-bold  px-[13px] py-[7px] max-lg:text-xl"
             href="#home"
             onClick={handleClick}
           >
@@ -58,7 +58,7 @@ export default function Header() {
         </li>
         <li className="navbar__li inline-block leading-[90px] mx-[5px] my-0 transition-all-duration[0.3s] hover:scale-105">
           <a
-            className="navbar__a text-lg font-bold px-[13px] py-[7px]"
+            className="navbar__a text-lg font-bold px-[13px] py-[7px] max-lg:text-xl"
             href="#about"
             onClick={handleClick}
           >
@@ -67,7 +67,7 @@ export default function Header() {
         </li>
         <li className="navbar__li inline-block leading-[90px] mx-[5px] my-0 transition-all-duration[0.3s] hover:scale-105">
           <a
-            className="navbar__a text-lg font-bold px-[13px] py-[7px]"
+            className="navbar__a text-lg font-bold px-[13px] py-[7px] max-lg:text-xl"
             href="#projects"
             onClick={handleClick}
           >
@@ -76,7 +76,7 @@ export default function Header() {
         </li>
         <li className="navbar__li inline-block leading-[90px] mx-[5px] my-0 transition-all-duration[0.3s] hover:scale-105">
           <a
-            className="navbar__a text-lg font-bold px-[13px] py-[7px]"
+            className="navbar__a text-lg font-bold px-[13px] py-[7px] max-lg:text-xl"
             href="#skills"
             onClick={handleClick}
           >
@@ -85,7 +85,7 @@ export default function Header() {
         </li>
         <li className="navbar__li inline-block leading-[90px] mx-[5px] my-0 transition-all-duration[0.3s] hover:scale-105">
           <a
-            className="navbar__a text-lg font-bold px-[13px] py-[7px]"
+            className="navbar__a text-lg font-bold px-[13px] py-[7px] max-lg:text-xl"
             href="#contact"
             onClick={handleClick}
           >
