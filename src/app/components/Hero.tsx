@@ -43,7 +43,7 @@ export default function Hero() {
               >
                 {/* Link  */}
                 <a
-                  className="inline-block text-[whitesmoke] text-base transition-all duration-[0.2s] bg-[#767676] mr-[7px] mb-2.5 px-[0.6rem] py-[0.5rem] rounded-[15px] hover:opacity-[80%]"
+                  className="inline-block text-[whitesmoke] text-base transition-all duration-[0.2s] bg-[#767676] mr-[7px] mb-2.5 px-[0.6rem] py-[0.4rem] rounded-[15px] hover:opacity-[80%]"
                   href="http://linkedin.com/in/yoni-deserbaix"
                   target="_blank"
                   rel="noreferrer"
@@ -58,7 +58,7 @@ export default function Hero() {
                   href="https://github.com/Yoni-Deserbaix"
                   rel="noreferrer"
                   target="_blank"
-                  className="inline-block text-[whitesmoke] text-base transition-all duration-[0.2s] bg-[#767676] mr-[7px] mb-2.5 px-[0.6rem] py-[0.5rem] rounded-[15px] hover:opacity-[80%]"
+                  className="inline-block text-[whitesmoke] text-base transition-all duration-[0.2s] bg-[#767676] mr-[7px] mb-2.5 px-[0.6rem] py-[0.4rem] rounded-[15px] hover:opacity-[80%]"
                 >
                   {/* Social button */}
                   <i className="bg-transparent text-base text-[whitesmoke] translate-y-px pr-[5px] bx bxl-github"></i>
@@ -70,7 +70,7 @@ export default function Hero() {
                   href="mailto:yonideserbaix@gmail.com"
                   rel="noreferrer"
                   target="_blank"
-                  className="inline-block text-[whitesmoke] text-base transition-all duration-[0.2s] bg-[#767676] mr-[7px] mb-2.5 px-[0.6rem] py-[0.5rem] rounded-[15px] hover:opacity-[80%]"
+                  className="inline-block text-[whitesmoke] text-base transition-all duration-[0.2s] bg-[#767676] mr-[7px] mb-2.5 px-[0.6rem] py-[0.4rem] rounded-[15px] hover:opacity-[80%]"
                 >
                   {/* Social button */}
                   <i className="bg-transparent text-base text-[whitesmoke] translate-y-px pr-[5px] bx bxl-linkedin-square bx bxs-envelope"></i>{" "}
