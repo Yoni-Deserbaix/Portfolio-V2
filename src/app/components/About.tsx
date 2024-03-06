@@ -58,7 +58,7 @@ export default function About() {
             </p>
 
             <a
-              className="inline-block text-[whitesmoke] text-base transition-all duration-200 bg-[#767676] mr-7 mt-5 mb-2.5 p-2 rounded-xl cursor-pointer transition-all-duration[0.3s] hover:opacity-[80%]"
+              className="inline-block text-[whitesmoke] text-base transition-all duration-200 bg-[#767676] mr-7 mt-5 mb-2.5 p-3 pl-4 rounded-xl cursor-pointer transition-all-duration[0.3s] hover:opacity-[80%]"
               
               onClick={() => {
                 window.open("../assets/DESERBAIX-Yoni-CV-ENI.pdf", "_blank");
