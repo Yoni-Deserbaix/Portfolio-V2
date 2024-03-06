@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <div>
       {/* Home section  */}
-      <section className="bg-[#fff] pt-[200px] max-md:pt-[100px]" id="home ">
+      <section className="bg-[#fff] pt-[200px] max-md:pt-[100px]" id="home">
         {/* Container  */}
         <div className="m-auto w-[70%] px-8 py-0 max-md:w-[95%]">
           {/* Content  */}
