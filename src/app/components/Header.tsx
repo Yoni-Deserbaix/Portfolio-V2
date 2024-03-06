@@ -51,7 +51,7 @@ export default function Header() {
           className="navbar__burger__menu hidden float-right text-[30px] leading-[80px] mr-[40px] cursor-pointer max-lg:block"
         >
           <i
-            className="bx bx-menu text-center rounded hover:bg-[whitesmoke] "
+            className="bx bx-menu text-center rounded hover:bg-[whitesmoke] p-1"
             id="burger__icon"
           ></i>
         </label>
