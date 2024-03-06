@@ -17,12 +17,12 @@ export default function About() {
               src={aboutPhoto.src}
               width={1000}
               height={1000}
-              className="relative max-w-[14rem] max-md:w-[15rem] max-lg:w-[12rem] transition-transform duration-[0.4s] rounded-[25px] hover:scale-[1.02]"
+              className="w-[250px] h-[350px] mr-[250px] rounded-[25px] transition-transform duration-[0.4s] hover:scale-[1.02] max-lg:mr-0"
               alt="about photo"
             />
           </div>
           {/* About text */}
-          <div className="pl-32 max-lg:pl-0">
+          <div className="pl-24 max-lg:pl-0">
             <h3
               className="about-text text-[1.3rem] font-extrabold uppercase max-lg:text-center max-lg:pt-8"
               data-aos="fade-up"
