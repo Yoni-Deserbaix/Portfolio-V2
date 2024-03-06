@@ -61,7 +61,7 @@ export default function About() {
               className="inline-block text-[whitesmoke] text-base transition-all duration-200 bg-[#767676] mr-7 mt-5 mb-2.5 p-3 pl-4 rounded-xl cursor-pointer transition-all-duration[0.3s] hover:opacity-[80%]"
               
               onClick={() => {
-                window.open("../assets/DESERBAIX_Yoni_CV_ENI.pdf", "_blank");
+                window.open("/assets/DESERBAIX_Yoni_CV_ENI.pdf", "_blank");
               }}
             >
               Download CV{" "}
