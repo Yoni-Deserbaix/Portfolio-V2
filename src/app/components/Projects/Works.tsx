@@ -58,7 +58,10 @@ export default function Works() {
           );
         })}
       </div>
-      <div className="work-container grid-cols-[repeat(2,max-content)] gap-12 grid justify-center">
+      <div
+        className="work-container grid-cols-[repeat(2,max-content)] gap-12 grid justify-center max-xl:gap-5 max-md:grid-cols-[repeat(1,max-content)]
+"
+      >
         {projects.map((item) => {
           return <WorksItems item={item} key={item.id} />;
         })}

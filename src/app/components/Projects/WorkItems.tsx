@@ -17,7 +17,7 @@ type WorksItemsProps = {
 const WorksItems: React.FC<WorksItemsProps> = ({ item }) => {
   return (
     <div
-      className="work-card border p-8 rounded-2xl border-solid border-[rgba(0,0,0,0.1)]"
+      className="work-card border p-8 rounded-2xl border-solid border-[rgba(0,0,0,0.1)] max-xl:p-4 "
       key={item.id}
       data-aos="fade-up"
       data-aos-duration="300"
@@ -25,10 +25,10 @@ const WorksItems: React.FC<WorksItemsProps> = ({ item }) => {
       <Image
         src={item.image}
         alt=""
-        className="work-img  w-[280px] transition-[0.4s] mb-5 rounded-2xl hover:scale-105"
+        className="work-img  w-[280px] transition-[0.4s] mb-5 rounded-2xl hover:scale-105 "
       />
 
-      <h3 className="work-title mb-2.5 font-extrabold text-lg">{item.title}</h3>
+      <h3 className="work-title mb-2.5 font-extrabold text-xl">{item.title}</h3>
       <div className="item-languages flex flex-wrap mt-4">
         {item.languages.map((language, index) => (
           <span

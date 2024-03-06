@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function () {
   return (
     <section
-      className="work-section  w-3/5 m-auto px-8 py-[100px]"
+      className="work-section  w-3/5 m-auto px-8 py-[100px] max-md:w-full max-md:m-auto max-md:py-24 max-md:py-8"
       id="projects"
     >
       <h3
