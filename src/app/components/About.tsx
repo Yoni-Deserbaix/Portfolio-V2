@@ -1,8 +1,6 @@
-"use client";
 import React from "react";
 import Image from "next/image";
 import aboutPhoto from "../assets/about.jpg";
-import { motion } from "framer-motion";
 
 export default function About() {
   return (
@@ -59,10 +57,8 @@ export default function About() {
 
             <a
               className="inline-block text-[whitesmoke] text-base transition-all duration-200 bg-[#767676] mr-7 mt-5 mb-2.5 p-3 pl-4 rounded-xl cursor-pointer transition-all-duration[0.3s] hover:opacity-[80%]"
-              
-              onClick={() => {
-                window.open("/assets/DESERBAIX_Yoni_CV_ENI.pdf", "_blank");
-              }}
+              href="https://drive.google.com/file/d/1y6XIRZMppI5f6syUr_3tOLUxK9GW438w/view?usp=sharing"
+              target="blank"
             >
               Download CV{" "}
               <i className="text-[whitesmoke] text-base transform translate-y-0.5 pr-1 bx bxs-download"></i>{" "}
