@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
     <section className="contact py-[100px] " id="contact">
-      <div className="container w-3/5 m-auto">
+      <div className="container w-4/5 m-auto">
         <div className="contact-content">
           <h1
             id="contact-title"
@@ -21,7 +21,7 @@ export default function Contact() {
             Une opportunité d'alternance ? Contactez-moi ! 👇
           </p>
           <div
-            className="contact-wrapper flex justify-evenly"
+            className="contact-wrapper flex justify-evenly max-lg:flex-col max-lg:gap-4"
             data-aos="fade-up"
             data-aos-delay="500"
             data-aos-duration="300"
