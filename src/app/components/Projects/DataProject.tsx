@@ -24,6 +24,16 @@ type Project = {
 
 export const projectsData: Project[] = [
   {
+    id: 1,
+    image: Work1,
+    title: "Portfolio",
+    category: "React",
+    languages: ["ReNext.JS", "TypeScript ", "Tailwind"],
+    description: "Mon portfolio personnel développé avec Next.JS. Ce site présente mes compétences, expériences et projets de manière interactive et moderne.",
+    github: "https://github.com/Yoni-Deserbaix/Portfolio",
+    demo: "https://yoni-deserbaix.github.io/Portfolio/",
+  },
+  {
     id: 10,
     image: Work10,
     title: "MyBlog",
@@ -32,16 +42,6 @@ export const projectsData: Project[] = [
     description: "Mon blog, construit avec Next.JS, est une plateforme où je partage mes articles, mes astuces et mes expériences personnelles dans divers domaines.",
     github: "https://github.com/Yoni-Deserbaix/myblog",
     demo: "https://yoni-deserbaix-my-blog.vercel.app/",
-  },
-  {
-    id: 1,
-    image: Work1,
-    title: "Portfolio",
-    category: "React",
-    languages: ["React", "JavaScript ", "SASS"],
-    description: "Mon portfolio personnel développé avec React. Ce site présente mes compétences, expériences et projets de manière interactive et moderne.",
-    github: "https://github.com/Yoni-Deserbaix/Portfolio",
-    demo: "https://yoni-deserbaix.github.io/Portfolio/",
   },
   {
     id: 2,
