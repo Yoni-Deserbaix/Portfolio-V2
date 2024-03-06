@@ -1,10 +1,8 @@
-"use client";
-
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import taiwindlogo from "../assets//languages/tailwindcss-color.svg";
-export const Skills = () => {
+import taiwindlogo from "../../assets//languages/tailwindcss-color.svg";
+export default function Skills() {
   return (
     <section
       id="skills"
