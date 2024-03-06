@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description: "Yoni - Développeur Fullastack",
   icons: {
     icon: [
-      "../app/assets/memoji-home.png"
+      "https://raw.githubusercontent.com/Yoni-Deserbaix/portfolio-v2/main/src/app/assets/memoji-favicon.png"
     ],
   },
 };
