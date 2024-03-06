@@ -61,7 +61,7 @@ export default function Skills() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-7 items-center  max-lg:ml-0">
+        <div className="flex flex-col gap-7 items-center  max-lg:ml-0 pb-10">
           <h4 className="text-xl font-bold">Outils</h4>
           <div className="rounded-2xl w-[800px] py-4 px-10 bg-gradient-to-b from-secondary to-third shadow-xl max-xl:w-full">
             <div className="flex flex-wrap gap-8 justify-evenly">
@@ -78,7 +78,6 @@ export default function Skills() {
                       alt={`${language.name}`}
                     />{" "}
                     <p className="text-center font-bold text-base pt-2 lg:text-base md:text-xs sm:text-xs">
-                      {" "}
                       {language.name}
                     </p>
                   </div>

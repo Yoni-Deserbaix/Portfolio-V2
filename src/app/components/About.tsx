@@ -8,7 +8,7 @@ export default function About() {
   return (
     <div className="about bg-[whitesmoke] px-0 py-[100px] " id="about">
       {/* About section */}
-      <section className="container flex m-auto w-2/3 ">
+      <section className="container flex m-auto w-2/3 max-md:w-[80%]">
         {/* About content */}
         <div className="flex justify-center items-center max-lg:flex-col">
           {/* About image */}
