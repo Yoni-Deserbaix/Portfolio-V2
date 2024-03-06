@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { projectsData } from "./DataSkills";
+import { skillsData } from "./DataSkills";
 
 export default function Skills() {
   return (
@@ -19,7 +19,7 @@ export default function Skills() {
           <h5 className="text-xl font-bold">FRONTEND</h5>
           <div className="rounded-2xl w-[800px] py-2.5 px-10 bg-gradient-to-b from-secondary to-third shadow-xl max-xl:w-full">
             <div className="flex gap-8 w-full max-[400px]:gap-4">
-              {projectsData
+              {skillsData
                 .filter((language) => language.category === "Frontend")
                 .map((language) => (
                   <Image
@@ -37,7 +37,7 @@ export default function Skills() {
           <h4 className="text-xl font-bold">BACKEND</h4>
           <div className="rounded-2xl w-[800px] py-2.5 px-10 bg-gradient-to-b from-secondary to-third shadow-xl max-xl:w-full">
             <div className="flex gap-8 w-full max-[400px]:gap-4">
-              {projectsData
+              {skillsData
                 .filter((language) => language.category === "Backend")
                 .map((language) => (
                   <Image
@@ -55,7 +55,7 @@ export default function Skills() {
           <h4 className="text-xl font-bold">Outils</h4>
           <div className="rounded-2xl w-[800px] py-2.5 px-10 bg-gradient-to-b from-secondary to-third shadow-xl max-xl:w-full">
             <div className="flex gap-8 w-full max-[400px]:gap-4">
-              {projectsData
+              {skillsData
                 .filter((language) => language.category === "Tools")
                 .map((language) => (
                   <Image

@@ -17,7 +17,7 @@ type languages = {
   category: string;
 };
 
-export const projectsData: languages[] = [
+export const skillsData: languages[] = [
   {
     id: 1,
     name: "JavaScript",
