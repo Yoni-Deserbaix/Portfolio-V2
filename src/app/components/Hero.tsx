@@ -8,12 +8,14 @@ export default function Hero() {
   return (
     <div>
       {/* Home section  */}
-      <section className="bg-[#fff] pt-[200px] max-md:pt-[100px]" id="home">
+      <section className="bg-[#fff] pt-[200px]" id="home">
         {/* Container  */}
         <div className="m-auto w-[70%] px-8 py-0 max-md:w-[90%]">
           {/* Content  */}
-          <div className="flex justify-center items-center max-sm:flex-col-reverse max-sm:gap-12 
-          max-sm:text-center  max-md:flex-col-reverse max-md:gap-12  max-md:text-center max-lg:flex-row  max-lg:text-start">
+          <div
+            className="flex justify-center items-center max-sm:flex-col-reverse max-sm:gap-12 
+          max-sm:text-center  max-md:flex-col-reverse max-md:gap-12  max-md:text-center max-lg:flex-row  max-lg:text-start"
+          >
             {/* Hero text  */}
             <div className="flex flex-col max-w-[50rem]">
               <h1

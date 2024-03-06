@@ -36,7 +36,7 @@ export default function Header() {
               alt="memoji"
               width={500}
               height={500}
-              className="w-[80px] transition-all duration-[0.3s] mx-[5px] my-[30px] hover:scale-105 max-lg:mx-[15px] max-lg:my-[20px] max-lg:w-[50px]"
+              className="w-[80px] transition-all duration-[0.3s] ml-8 hover:scale-105 max-lg:mx-[15px] max-lg:my-[20px] max-lg:w-[50px]"
             />
           </a>
         </strong>
@@ -46,64 +46,67 @@ export default function Header() {
           className="hidden"
           onChange={handleClick}
         />
-        <label htmlFor="check" className="navbar__burger__menu">
+        <label
+          htmlFor="check"
+          className="navbar__burger__menu hidden float-right text-[30px] leading-[80px] mr-[40px] cursor-pointer max-lg:block"
+        >
           <i
-            className="bx bx-menu float-end mr-8 px-[5px] text-center py-[7px] rounded hover:bg-[whitesmoke] text-[2rem]"
+            className="bx bx-menu text-center rounded hover:bg-[whitesmoke] "
             id="burger__icon"
           ></i>
         </label>
-      </div>
 
-      <ul
-        className="navbar__ul float-right mr-[25px] max-lg:fixed max-lg:w-full max-lg:h-[100vh] max-lg:bg-[whitesmoke] max-lg:top-20 max-lg:text-center max-lg:flex max-lg:flex-col"
-        style={isNavbarOpen ? openNavbar : closeNavbar}
-      >
-        <li className="navbar__li inline-block leading-[90px] mx-[5px] my-0 transition-all-duration[0.3s] hover:scale-105 max-lg:block">
-          <a
-            className="navbar__a text-lg font-bold  px-[13px] py-[7px] max-lg:text-xl"
-            href="#home"
-            onClick={handleClick}
-          >
-            Accueil
-          </a>
-        </li>
-        <li className="navbar__li inline-block leading-[90px] mx-[5px] my-0 transition-all-duration[0.3s] hover:scale-105">
-          <a
-            className="navbar__a text-lg font-bold px-[13px] py-[7px] max-lg:text-xl"
-            href="#about"
-            onClick={handleClick}
-          >
-            A propos
-          </a>
-        </li>
-        <li className="navbar__li inline-block leading-[90px] mx-[5px] my-0 transition-all-duration[0.3s] hover:scale-105">
-          <a
-            className="navbar__a text-lg font-bold px-[13px] py-[7px] max-lg:text-xl"
-            href="#projects"
-            onClick={handleClick}
-          >
-            Projets
-          </a>
-        </li>
-        <li className="navbar__li inline-block leading-[90px] mx-[5px] my-0 transition-all-duration[0.3s] hover:scale-105">
-          <a
-            className="navbar__a text-lg font-bold px-[13px] py-[7px] max-lg:text-xl"
-            href="#skills"
-            onClick={handleClick}
-          >
-            Compétences
-          </a>
-        </li>
-        <li className="navbar__li inline-block leading-[90px] mx-[5px] my-0 transition-all-duration[0.3s] hover:scale-105">
-          <a
-            className="navbar__a text-lg font-bold px-[13px] py-[7px] max-lg:text-xl"
-            href="#contact"
-            onClick={handleClick}
-          >
-            Contact
-          </a>
-        </li>
-      </ul>
+        <ul
+          className="navbar__ul float-right mr-[25px] max-lg:fixed max-lg:w-full max-lg:h-[100vh] max-lg:bg-[whitesmoke] max-lg:top-20 max-lg:text-center max-lg:flex max-lg:flex-col"
+          style={isNavbarOpen ? openNavbar : closeNavbar}
+        >
+          <li className="navbar__li inline-block leading-[90px] mx-[5px] my-0 transition-all-duration[0.3s] hover:scale-105 max-lg:block">
+            <a
+              className="navbar__a text-lg font-bold  px-[13px] py-[7px] max-lg:text-xl"
+              href="#home"
+              onClick={handleClick}
+            >
+              Accueil
+            </a>
+          </li>
+          <li className="navbar__li inline-block leading-[90px] mx-[5px] my-0 transition-all-duration[0.3s] hover:scale-105">
+            <a
+              className="navbar__a text-lg font-bold px-[13px] py-[7px] max-lg:text-xl"
+              href="#about"
+              onClick={handleClick}
+            >
+              A propos
+            </a>
+          </li>
+          <li className="navbar__li inline-block leading-[90px] mx-[5px] my-0 transition-all-duration[0.3s] hover:scale-105">
+            <a
+              className="navbar__a text-lg font-bold px-[13px] py-[7px] max-lg:text-xl"
+              href="#projects"
+              onClick={handleClick}
+            >
+              Projets
+            </a>
+          </li>
+          <li className="navbar__li inline-block leading-[90px] mx-[5px] my-0 transition-all-duration[0.3s] hover:scale-105">
+            <a
+              className="navbar__a text-lg font-bold px-[13px] py-[7px] max-lg:text-xl"
+              href="#skills"
+              onClick={handleClick}
+            >
+              Compétences
+            </a>
+          </li>
+          <li className="navbar__li inline-block leading-[90px] mx-[5px] my-0 transition-all-duration[0.3s] hover:scale-105">
+            <a
+              className="navbar__a text-lg font-bold px-[13px] py-[7px] max-lg:text-xl"
+              href="#contact"
+              onClick={handleClick}
+            >
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
     </nav>
   );
 }
