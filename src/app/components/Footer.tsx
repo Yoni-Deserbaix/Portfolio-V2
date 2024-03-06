@@ -9,6 +9,7 @@ export default function () {
           href="http://linkedin.com/in/yoni-deserbaix"
           target="_blank"
           rel="noreferrer"
+          aria-label="Lien LinkedIn"
         >
           <i className="bx bxl-linkedin-square text-[1.8rem] text-[whitesmoke] transition-all duration-[0.2s] mr-[15px] hover:opacity-[70%]"></i>
         </a>
@@ -16,6 +17,7 @@ export default function () {
           href="https://github.com/Yoni-Deserbaix"
           target="_blank"
           rel="noreferrer"
+          aria-label="Lien Github"
         >
           <i className="bx bxl-github text-[1.8rem] text-[whitesmoke] transition-all duration-[0.2s] mr-[15px] hover:opacity-[70%]"></i>
         </a>
