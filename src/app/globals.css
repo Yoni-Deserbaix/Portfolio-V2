@@ -12,3 +12,29 @@
   scroll-behavior: smooth;
   color: #2d2e32;
 }
+
+@keyframes wheel-up-down {
+  0% {
+    margin-top: 2px;
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    margin-top: 20px;
+    opacity: 0;
+  }
+}
+
+@keyframes animimg {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(-1rem);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}

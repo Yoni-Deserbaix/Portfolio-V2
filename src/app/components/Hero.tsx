@@ -96,7 +96,7 @@ export default function Hero() {
           <a className="flex justify-center mt-[350px] mb-[25px]" href="#about">
             {/* Mouse icon  */}
             <div className="w-[25px] h-[45px] relative text-center rounded-[15px] border-2 border-solid border-[#767676]">
-              <span className="w-[3px] h-2 block animate-[1.2s_ease_infinite_wheel-up-down] mt-0.5 mb-0 mx-auto rounded-[5px] background: $textColor -webkit-animation: 1.2s ease infinite wheel-up-down"></span>
+              <span className="w-[3px] h-2 block animate-[1.2s_ease_infinite_wheel-up-down] mt-0.5 mb-0 mx-auto rounded-[5px] bg-[#767676] -webkit-animation: 1.2s ease infinite wheel-up-down"></span>
             </div>
           </a>{" "}
         </div>
