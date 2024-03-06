@@ -12,7 +12,7 @@ export default function Hero() {
         {/* Container  */}
         <div className="m-auto w-[70%] px-8 py-0">
           {/* Content  */}
-          <div className="flex justify-center items-center justify-between">
+          <div className="flex justify-center items-center sm:flex-col-reverse sm:gap-12 sm:text-center lg:flex-row  lg:text-start">
             {/* Hero text  */}
             <div className="flex flex-col max-w-[50rem]">
               <h1
@@ -77,12 +77,12 @@ export default function Hero() {
               </span>
             </div>
             {/* Hero image  */}
-            <div className="relative animate-[animimg_4s_ease-in-out_infinite] rounded-[50%]">
+            <div>
               <Image
                 src={memojiHome.src}
                 width={2000}
                 height={2000}
-                className="flex w-80 h-80 animate-[animimg_4s_ease-in-out_infinite] rounded-[50%]"
+                className=" w-full max-w-[20rem] sm:w-[15rem] md:w-[15rem] lg:w-[20rem] xl:w-[20rem] animate-[animimg_4s_ease-in-out_infinite] rounded-full"
                 alt="hero"
                 data-aos="fade-up"
                 data-aos-duration="300"
