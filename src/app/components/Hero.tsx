@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <div>
       {/* Home section  */}
-      <section className="bg-[#fff] pt-[200px] max-md:pt-[100px]" id="home">
+      <section className="bg-[#fff] pt-[200px] max-md:pt-[120px]" id="home">
         {/* Container  */}
         <div className="m-auto w-[70%] px-8 py-0 max-md:w-[95%]">
           {/* Content  */}
@@ -19,7 +19,7 @@ export default function Hero() {
             {/* Hero text  */}
             <div className="flex flex-col max-w-[50rem]">
               <h1
-                className="text-5xl font-extrabold leading-[1.2] mb-[15px] max-md:text-4xl max-sm:text-2xl"
+                className="text-5xl font-extrabold leading-[1.2] mb-[15px] max-md:text-4xl max-sm:text-2xl max-sm:mt-[-20px]"
                 data-aos="fade-up"
                 data-aos-duration="300"
               >
@@ -85,7 +85,7 @@ export default function Hero() {
                 src={memojiHome.src}
                 width={2000}
                 height={2000}
-                className=" w-full max-w-[20rem] max-md:w-[12rem] max-lg:w-[17rem] lg:w-[30rem] animate-[animimg_4s_ease-in-out_infinite] rounded-full"
+                className=" w-full max-w-[20rem] max-md:w-[10rem] max-lg:w-[17rem] lg:w-[30rem] animate-[animimg_4s_ease-in-out_infinite] rounded-full"
                 alt="hero"
                 data-aos="fade-up"
                 data-aos-duration="300"
@@ -93,9 +93,9 @@ export default function Hero() {
             </div>
           </div>
           {/* Hero mouse anchor  */}
-          <a className="flex justify-center mt-[350px] mb-[25px]" href="#about">
+          <a className="flex justify-center mt-8 mb-2 max-md:m-6 md:mt-[350px] md:mb-[35px]" href="#about">
             {/* Mouse icon  */}
-            <div className="w-[25px] h-[45px] relative text-center rounded-[15px] border-2 border-solid border-[#767676]">
+            <div className="w-[25px] h-[45px] relative text-center rounded-[15px] border-2 border-solid border-[#767676] ">
               <span className="w-[3px] h-2 block animate-[1.2s_ease_infinite_wheel-up-down] mt-0.5 mb-0 mx-auto rounded-[5px] bg-[#767676] -webkit-animation: 1.2s ease infinite wheel-up-down"></span>
             </div>
           </a>{" "}
