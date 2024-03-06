@@ -6,25 +6,25 @@ import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <div className="about bg-[whitesmoke] px-0 py-[100px]" id="about">
+    <div className="about bg-[whitesmoke] px-0 py-[100px] " id="about">
       {/* About section */}
-      <section className="container flex m-auto w-2/3">
+      <section className="container flex m-auto w-2/3 ">
         {/* About content */}
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center max-lg:flex-col">
           {/* About image */}
           <div className="about-img" data-aos="fade-up" data-aos-duration="500">
             <Image
               src={aboutPhoto.src}
               width={1000}
               height={1000}
-              className="mw-[700px] mh-[360px] transition-transform duration-[0.4s] mr-[100px] rounded-[25px] hover:scale-[1.02]"
+              className="relative max-w-[14rem] max-md:w-[15rem] max-lg:w-[12rem] transition-transform duration-[0.4s] rounded-[25px] hover:scale-[1.02]"
               alt="about photo"
             />
           </div>
           {/* About text */}
-          <div className="pl-32">
+          <div className="pl-32 max-lg:pl-0">
             <h3
-              className="about-text text-[1.3rem] font-extrabold uppercase"
+              className="about-text text-[1.3rem] font-extrabold uppercase max-lg:text-center max-lg:pt-8"
               data-aos="fade-up"
               data-aos-duration="300"
             >
@@ -32,7 +32,7 @@ export default function About() {
             </h3>
 
             <p
-              className="text-[#767676] leading-normal mt-4"
+              className="text-[#767676] leading-normal mt-4 "
               data-aos="fade-up"
               data-aos-delay="300"
               data-aos-duration="300"
