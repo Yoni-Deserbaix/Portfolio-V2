@@ -8,18 +8,18 @@ export default function Hero() {
   return (
     <div>
       {/* Home section  */}
-      <section className="bg-[#fff] pt-[200px]" id="home">
+      <section className="bg-[#fff] pt-[200px] max-md:pt-[100px]" id="home ">
         {/* Container  */}
-        <div className="m-auto w-[70%] px-8 py-0 max-md:w-[90%]">
+        <div className="m-auto w-[70%] px-8 py-0 max-md:w-[95%]">
           {/* Content  */}
           <div
-            className="flex justify-center items-center max-sm:flex-col-reverse max-sm:gap-12 
+            className="flex justify-between items-center max-sm:flex-col-reverse max-sm:gap-12 
           max-sm:text-center  max-md:flex-col-reverse max-md:gap-12  max-md:text-center max-lg:flex-row  max-lg:text-start"
           >
             {/* Hero text  */}
             <div className="flex flex-col max-w-[50rem]">
               <h1
-                className="text-5xl font-bold leading-[1.2] mb-[15px] max-md:text-4xl"
+                className="text-5xl font-extrabold leading-[1.2] mb-[15px] max-md:text-4xl max-sm:text-2xl"
                 data-aos="fade-up"
                 data-aos-duration="300"
               >
@@ -27,7 +27,7 @@ export default function Hero() {
                 <span className="mt-[25px]">👋</span>
               </h1>
               <p
-                className="leading-[1.6] text-[#767676] mr-[25px]"
+                className="leading-[1.6] text-[#767676] mr-[25px] max-md:mr-0"
                 data-aos="fade-up"
                 data-aos-delay="300"
                 data-aos-duration="300"
@@ -85,7 +85,7 @@ export default function Hero() {
                 src={memojiHome.src}
                 width={2000}
                 height={2000}
-                className=" w-full max-w-[20rem] max-md:w-[12rem] max-lg:w-[17rem] max-2xl:w-[30rem] animate-[animimg_4s_ease-in-out_infinite] rounded-full"
+                className=" w-full max-w-[20rem] max-md:w-[12rem] max-lg:w-[17rem] lg:w-[30rem] animate-[animimg_4s_ease-in-out_infinite] rounded-full"
                 alt="hero"
                 data-aos="fade-up"
                 data-aos-duration="300"
