@@ -36,7 +36,7 @@ export default function Header() {
               alt="memoji"
               width={500}
               height={500}
-              className="w-[80px] transition-all duration-[0.3s] ml-8 hover:scale-105 max-lg:mx-[15px] max-lg:my-[20px] max-lg:w-[50px]"
+              className="w-[80px] transition-all duration-[0.3s] ml-8 hover:scale-105 max-lg:mx-[15px] max-lg:my-[10px] max-lg:w-[50px]"
             />
           </a>
         </strong>
