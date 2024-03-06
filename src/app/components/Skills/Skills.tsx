@@ -10,7 +10,7 @@ export default function Skills() {
       className="relative h-full pt-28 pb-14 max-lg:pt-14 max-lg:pb-0 bg-[whitesmoke]"
     >
       <div className="flex justify-center items-center">
-        <h5 className="text-xl font-extrabold">COMPÉTENCES</h5>
+        <h3 className="text-xl font-extrabold">COMPÉTENCES</h3>
       </div>
       <div className="flex flex-col  items-center w-full mt-20 gap-28 max-xl:gap-14 max-lg:mt-10">
         <div className="flex flex-col gap-7 items-center max-lg:ml-0">
