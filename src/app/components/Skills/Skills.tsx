@@ -29,7 +29,7 @@ export default function Skills() {
                       width={60}
                       alt={`${language.name}`}
                     />
-                    <p className="text-center font-bold text-xs pt-2">
+                    <p className="text-center font-bold text-base pt-2 lg:text-base md:text-xs sm:text-xs">
                       {language.name}
                     </p>
                   </div>
@@ -53,7 +53,7 @@ export default function Skills() {
                       width={60}
                       alt={`${language.name}`}
                     />{" "}
-                    <p className="text-center font-bold text-xs pt-2">
+                    <p className="text-center font-bold text-base pt-2 lg:text-base md:text-xs sm:text-xs">
                       {language.name}
                     </p>
                   </div>
@@ -77,7 +77,8 @@ export default function Skills() {
                       width={60}
                       alt={`${language.name}`}
                     />{" "}
-                    <p className="text-center font-bold text-xs pt-2">
+                    <p className="text-center font-bold text-base pt-2 lg:text-base md:text-xs sm:text-xs">
+                      {" "}
                       {language.name}
                     </p>
                   </div>
