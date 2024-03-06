@@ -93,7 +93,11 @@ export default function Hero() {
             </div>
           </div>
           {/* Hero mouse anchor  */}
-          <a className="flex justify-center mt-8 mb-2 max-md:m-6 md:mt-[350px] md:mb-[35px]" href="#about">
+          <a
+            className="flex justify-center mt-8 mb-2 max-md:m-6 md:mt-[350px] md:mb-[35px]"
+            href="#about"
+            aria-label="Aller à la section About"
+          >
             {/* Mouse icon  */}
             <div className="w-[25px] h-[45px] relative text-center rounded-[15px] border-2 border-solid border-[#767676] ">
               <span className="w-[3px] h-2 block animate-[1.2s_ease_infinite_wheel-up-down] mt-0.5 mb-0 mx-auto rounded-[5px] bg-[#767676] -webkit-animation: 1.2s ease infinite wheel-up-down"></span>
