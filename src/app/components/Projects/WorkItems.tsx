@@ -28,7 +28,7 @@ const WorksItems: React.FC<WorksItemsProps> = ({ item }) => {
         className="work-img  w-[280px] transition-[0.4s] mb-5 rounded-2xl hover:scale-105"
       />
 
-      <h3 className="work-title mb-2.5">{item.title}</h3>
+      <h3 className="work-title mb-2.5 font-extrabold text-lg">{item.title}</h3>
       <div className="item-languages flex flex-wrap mt-4">
         {item.languages.map((language, index) => (
           <span
