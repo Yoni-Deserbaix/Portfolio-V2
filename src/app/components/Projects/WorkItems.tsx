@@ -24,7 +24,9 @@ const WorksItems: React.FC<WorksItemsProps> = ({ item }) => {
     >
       <Image
         src={item.image}
-        alt=""
+        width={1000}
+        height={1000}
+        alt="Screenshot of project"
         className="work-img  w-[280px] transition-[0.4s] mb-5 rounded-2xl hover:scale-105 "
       />
 
