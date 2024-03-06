@@ -1,7 +1,7 @@
 export default function () {
   return (
     <footer className="flex bg-[#2d2e32] items-center flex-row justify-evenly px-2.5 py-[50px]">
-      <p className="text-base text-[whitesmoke] mb-[15px] xl:text-lg lg:text-lg md:text-xs sm:text-xs">
+      <p className="text-base text-[whitesmoke] mb-[15px] max-lg:text-sm">
         Copyright © 2024 • Make with ❤️ By Yoni Deserbaix
       </p>
       <div className="socials ">
