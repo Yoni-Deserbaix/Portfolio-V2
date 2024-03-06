@@ -6,7 +6,7 @@ import TailwindLogo from "../../assets/languages/tailwindcss-color.svg";
 import SassLogo from "../../assets/languages/sass-original.svg";
 import NodeLogo from "../../assets/languages/node-original.svg";
 import EXLogo from "../../assets/languages/express-original.svg";
-// import CPPLogo from "../../assets/languages/";
+import CPPLogo from "../../assets/languages/cplusplus-original.svg";
 import GitLogo from "../../assets/languages/git-original.svg";
 import LinuxLogo from "../../assets/languages/linux-original.svg";
 
@@ -69,7 +69,7 @@ export const skillsData: languages[] = [
   {
     id: 9,
     name: "C++",
-    image: EXLogo,
+    image: CPPLogo,
     category: "Backend",
   },
   {
