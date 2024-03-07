@@ -15,7 +15,7 @@ export default function Contact() {
             id="contact-hook-sentence"
             className="leading-normal text-[1.6rem] font-extrabold text-[#2d2e32] mt-20 mb-8 mx-0"
             data-aos="fade-up"
-            data-aos-delay="300"
+            data-aos-delay="350"
             data-aos-duration="300"
           >
             Une opportunité d'alternance ? Contactez-moi ! 👇
