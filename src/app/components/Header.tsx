@@ -1,14 +1,18 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import memojiHeader from "../assets/memoji-header.png";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 type NavbarState = {
   left: string;
   transition: string;
 };
 
 export default function Header() {
+  useEffect(() => {
+    AOS.init({});
+  }, []);
   const [isNavbarOpen, setNavbarOpen] = useState<boolean>(false);
 
   const handleClick = () => {
