@@ -32,7 +32,6 @@ export default function Skills() {
                 .map((language, index) => (
                   <div
                     key={index}
-                    className="aos-init"
                     data-aos="fade-up"
                     data-aos-duration="300"
                     data-aos-delay={index * 100}
@@ -64,7 +63,6 @@ export default function Skills() {
                 .map((language, index) => (
                   <div
                     key={index}
-                    className="aos-init"
                     data-aos="fade-up"
                     data-aos-duration="300"
                     data-aos-delay={index * 100}
@@ -97,7 +95,6 @@ export default function Skills() {
                 .map((language, index) => (
                   <div
                     key={index}
-                    className="aos-init"
                     data-aos="fade-up"
                     data-aos-duration="300"
                     data-aos-delay={index * 100}
