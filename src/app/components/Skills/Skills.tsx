@@ -7,10 +7,10 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="relative h-full pt-28 pb-14 max-lg:pt-14 max-lg:pb-0 bg-[whitesmoke]"
+      className="relative h-full pt-28  pb-14  max-lg:pt-14 max-lg:pb-0 bg-[whitesmoke]"
     >
       <div
-        className="flex text-start container w-4/5 m-auto"
+        className="flex text-start container mt-4 w-4/5 m-auto"
         data-aos="fade-up"
         data-aos-duration="300"
       >
