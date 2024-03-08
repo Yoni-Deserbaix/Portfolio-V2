@@ -6,26 +6,16 @@ export default function Contact() {
           <h1
             id="contact-title"
             className="text-[1.3rem] font-extrabold uppercase"
-            data-aos="fade-up"
-            data-aos-duration="300"
           >
             Contact
           </h1>
           <p
             id="contact-hook-sentence"
             className="leading-normal text-[1.6rem] font-extrabold text-[#2d2e32] mt-20 mb-8 mx-0"
-            data-aos="fade-up"
-            data-aos-delay="350"
-            data-aos-duration="300"
           >
             Une opportunité d'alternance ? Contactez-moi ! 👇
           </p>
-          <div
-            className="contact-wrapper flex justify-evenly max-lg:flex-col max-lg:gap-4"
-            data-aos="fade-up"
-            data-aos-delay="500"
-            data-aos-duration="300"
-          >
+          <div className="contact-wrapper flex justify-evenly max-lg:flex-col max-lg:gap-4">
             <div className="contact-container flex items-center gap-4">
               <span className="shadow-[0_0_10px_rgba(0,0,0,0.1)] p-4 rounded-[50%]">
                 <i className="bx bxs-map text-2xl"></i>{" "}
