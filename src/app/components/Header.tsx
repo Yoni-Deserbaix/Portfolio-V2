@@ -4,7 +4,8 @@ import Image from "next/image";
 import memojiHeader from "../assets/memoji-header.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
-type NavbarState = {
+
+type NavbarType = {
   left: string;
   transition: string;
 };
@@ -19,12 +20,12 @@ export default function Header() {
     setNavbarOpen((current) => !current);
   };
 
-  const openNavbar: NavbarState = {
+  const openNavbar: NavbarType = {
     left: "0",
     transition: "all 0.5s",
   };
 
-  const closeNavbar: NavbarState = {
+  const closeNavbar: NavbarType = {
     left: "-100%",
     transition: "all 0.5s",
   };

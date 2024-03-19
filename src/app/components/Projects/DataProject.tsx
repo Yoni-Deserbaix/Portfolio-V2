@@ -11,7 +11,7 @@ import Work9 from "../../assets/projects/work09.png";
 import Work10 from "../../assets/projects/work10.png";
 
 
-type Project = {
+type ProjectType = {
     id: number;
     image: any;
     title: string;
@@ -22,7 +22,7 @@ type Project = {
     demo?: string;
   };
 
-export const projectsData: Project[] = [
+export const projectsData: ProjectType[] = [
   {
     id: 1,
     image: Work1,

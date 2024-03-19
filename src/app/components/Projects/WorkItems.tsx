@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
-type Project = {
+
+
+type ProjectType = {
   id: number;
   image: any;
   title: string;
@@ -11,7 +13,7 @@ type Project = {
 };
 
 type WorksItemsProps = {
-  item: Project;
+  item: ProjectType;
 };
 
 const WorksItems: React.FC<WorksItemsProps> = ({ item }) => {

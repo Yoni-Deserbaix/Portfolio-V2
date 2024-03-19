@@ -4,7 +4,7 @@ import { projectsData } from "./DataProject";
 import { projectsNav } from "./DataProject";
 import WorksItems from "./WorkItems";
 
-type Project = {
+type ProjectType = {
   id: number;
   image: any;
   title: string;
@@ -18,16 +18,16 @@ type Project = {
 
 export default function Works() {
   const [item, setItem] = useState<{ name: string }>({ name: "Tout" });
-  const [projects, setProjects] = useState<Project[]>([]);
+  const [projects, setProjects] = useState<ProjectType[]>([]);
   const [active, setActive] = useState<number>(0);
 
   useEffect(() => {
     if (item.name === "Tout") {
-      setProjects(projectsData as Project[]);
+      setProjects(projectsData as ProjectType[]);
     } else {
       const newProjects = projectsData.filter((project) => {
         return project.category === item.name;
-      }) as Project[];
+      }) as ProjectType[];
       setProjects(newProjects);
     }
   }, [item]);

@@ -10,14 +10,14 @@ import CPPLogo from "../../assets/languages/cplusplus-original.svg";
 import GitLogo from "../../assets/languages/git-original.svg";
 import LinuxLogo from "../../assets/languages/linux-original.svg";
 
-type languages = {
+type languagesType = {
   id: number;
   name: string;
   image: any;
   category: string;
 };
 
-export const skillsData: languages[] = [
+export const skillsData: languagesType[] = [
   {
     id: 1,
     name: "JavaScript",
