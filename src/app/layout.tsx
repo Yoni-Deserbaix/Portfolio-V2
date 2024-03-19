@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import memoji from "../app/assets/memoji-home.png"
+import memoji from "../app/assets/memoji-home.png";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Yoni - Développeur Fullastack",
-  description: "Yoni - Développeur Fullastack",
+  title: "Yoni - Développeur Frontend",
+  description: "Yoni - Développeur Frontend",
   icons: {
     icon: [
-      "https://raw.githubusercontent.com/Yoni-Deserbaix/portfolio-v2/main/src/app/assets/memoji-favicon.png"
+      "https://raw.githubusercontent.com/Yoni-Deserbaix/portfolio-v2/main/src/app/assets/memoji-favicon.png",
     ],
   },
 };

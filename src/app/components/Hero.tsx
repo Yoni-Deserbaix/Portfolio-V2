@@ -32,8 +32,8 @@ export default function Hero() {
                 data-aos-delay="300"
                 data-aos-duration="300"
               >
-                Développeur Fullstack orienté Frontend et étudiant en
-                informatique basé à Nantes. 📍
+                Développeur Frontend React et étudiant en informatique basé à
+                Nantes. 📍
               </p>
               <span
                 className="link pt-6"
