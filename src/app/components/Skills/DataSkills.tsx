@@ -83,5 +83,5 @@ export const skillsData: languagesType[] = [
     name: "Linux",
     image: LinuxLogo,
     category: "Tools",
-  }
+  },
 ];
