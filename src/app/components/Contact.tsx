@@ -17,7 +17,7 @@ export default function Contact() {
           </p>
           <div className="contact-wrapper flex justify-evenly max-lg:flex-col max-lg:gap-4">
             <div className="contact-container flex items-center gap-4">
-              <span className="shadow-[0_0_10px_rgba(0,0,0,0.1)] p-4 rounded-[50%]">
+              <span className="shadow-[0_0_10px_rgba(0,0,0,0.1)] p-4 rounded-[50%] hover:scale-110 transition duration-200">
                 <i className="bx bxs-map text-2xl"></i>{" "}
               </span>
               <div className="contact-box">
@@ -26,7 +26,7 @@ export default function Contact() {
               </div>
             </div>
             <div className="contact-container  flex items-center gap-4">
-              <span className="shadow-[0_0_10px_rgba(0,0,0,0.1)] p-4 rounded-[50%]">
+              <span className="shadow-[0_0_10px_rgba(0,0,0,0.1)] p-4 rounded-[50%] hover:scale-110 transition duration-200">
                 <i className="bx bxs-envelope text-2xl"></i>{" "}
               </span>
               <div className="contact-box flex flex-col gap-2">

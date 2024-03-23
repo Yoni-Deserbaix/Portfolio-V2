@@ -19,7 +19,7 @@ export default function WorksItems({ item }: WorksItemsProps) {
         width={1000}
         height={1000}
         alt="Screenshot of project"
-        className="work-img  w-[280px] transition-[0.4s] mb-5 rounded-2xl hover:scale-105 "
+        className="work-img  w-[280px] mb-5 rounded-2xl hover:scale-105 transition duration-300"
       />
 
       <h3 className="work-title mb-2.5 font-extrabold text-xl">{item.title}</h3>

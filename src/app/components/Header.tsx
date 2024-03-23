@@ -41,7 +41,7 @@ export default function Header() {
               alt="memoji"
               width={500}
               height={500}
-              className="w-[80px] transition-all duration-[0.3s] ml-8 hover:scale-105 max-lg:mx-[15px] max-lg:my-[10px] max-lg:w-[50px]"
+              className="w-[80px] ml-8 hover:scale-105 transition duration-200 max-lg:mx-[15px] max-lg:my-[10px] max-lg:w-[50px]"
             />
           </a>
         </strong>
@@ -65,7 +65,7 @@ export default function Header() {
           className="navbar__ul float-right mr-[25px] max-lg:fixed max-lg:w-full max-lg:h-[100vh] max-lg:bg-[whitesmoke] max-lg:top-20 max-lg:text-center max-lg:flex max-lg:flex-col"
           style={isNavbarOpen ? openNavbar : closeNavbar}
         >
-          <li className="navbar__li inline-block leading-[90px] mx-[5px] my-0 transition-all-duration[0.3s] hover:scale-105 max-lg:block">
+          <li className="navbar__li inline-block leading-[90px] mx-[5px] my-0 hover:scale-110 transition duration-200  max-lg:block">
             <a
               className="navbar__a text-lg font-bold  px-[13px] py-[7px] max-lg:text-xl"
               href="#home"
@@ -74,7 +74,7 @@ export default function Header() {
               Accueil
             </a>
           </li>
-          <li className="navbar__li inline-block leading-[90px] mx-[5px] my-0 transition-all-duration[0.3s] hover:scale-105">
+          <li className="navbar__li inline-block leading-[90px] mx-[5px] my-0 hover:scale-110 transition duration-200">
             <a
               className="navbar__a text-lg font-bold px-[13px] py-[7px] max-lg:text-xl"
               href="#about"
@@ -83,7 +83,7 @@ export default function Header() {
               A propos
             </a>
           </li>
-          <li className="navbar__li inline-block leading-[90px] mx-[5px] my-0 transition-all-duration[0.3s] hover:scale-105">
+          <li className="navbar__li inline-block leading-[90px] mx-[5px] my-0 hover:scale-110 transition duration-200">
             <a
               className="navbar__a text-lg font-bold px-[13px] py-[7px] max-lg:text-xl"
               href="#projects"
@@ -92,7 +92,7 @@ export default function Header() {
               Projets
             </a>
           </li>
-          <li className="navbar__li inline-block leading-[90px] mx-[5px] my-0 transition-all-duration[0.3s] hover:scale-105">
+          <li className="navbar__li inline-block leading-[90px] mx-[5px] my-0 hover:scale-110 transition duration-200">
             <a
               className="navbar__a text-lg font-bold px-[13px] py-[7px] max-lg:text-xl"
               href="#skills"
@@ -101,7 +101,7 @@ export default function Header() {
               Compétences
             </a>
           </li>
-          <li className="navbar__li inline-block leading-[90px] mx-[5px] my-0 transition-all-duration[0.3s] hover:scale-105">
+          <li className="navbar__li inline-block leading-[90px] mx-[5px] my-0 hover:scale-110 transition duration-200">
             <a
               className="navbar__a text-lg font-bold px-[13px] py-[7px] max-lg:text-xl"
               href="#contact"

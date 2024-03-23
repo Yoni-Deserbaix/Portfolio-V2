@@ -22,7 +22,7 @@ export default function Skills() {
                   .map((language, index) => (
                     <div key={index}>
                       <Image
-                        className="hover:scale-110"
+                        className="hover:scale-110 transition duration-200"
                         src={language.image}
                         height={60}
                         width={60}
