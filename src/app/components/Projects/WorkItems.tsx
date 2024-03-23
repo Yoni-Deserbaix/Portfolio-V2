@@ -1,16 +1,6 @@
 import React from "react";
 import Image from "next/image";
-
-
-type ProjectType = {
-  id: number;
-  image: any;
-  title: string;
-  languages: string[];
-  description: string;
-  github: string;
-  demo: string;
-};
+import { ProjectType} from "./DataProject"
 
 type WorksItemsProps = {
   item: ProjectType;

@@ -11,7 +11,7 @@ import Work9 from "../../assets/projects/work09.png";
 import Work10 from "../../assets/projects/work10.png";
 
 
-type ProjectType = {
+export type ProjectType = {
     id: number;
     image: any;
     title: string;

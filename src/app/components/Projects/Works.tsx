@@ -1,20 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
-import { projectsData } from "./DataProject";
-import { projectsNav } from "./DataProject";
+import { projectsData, ProjectType, projectsNav } from "./DataProject";
 import WorksItems from "./WorkItems";
-
-type ProjectType = {
-  id: number;
-  image: any;
-  title: string;
-  category: string;
-  languages: string[];
-  description: string;
-  github: string;
-  demo: string;
-  projectsData: string;
-};
 
 export default function Works() {
   const [item, setItem] = useState<{ name: string }>({ name: "Tout" });
