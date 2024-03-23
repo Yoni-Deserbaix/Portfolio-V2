@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import { ProjectType} from "./DataProject"
+import { ProjectType } from "./DataProject";
 
 type WorksItemsProps = {
   item: ProjectType;
 };
 
-const WorksItems: React.FC<WorksItemsProps> = ({ item }) => {
+export default function WorksItems({ item }: WorksItemsProps) {
   return (
     <div
       className="work-card border p-8 rounded-2xl border-solid border-[rgba(0,0,0,0.1)] max-xl:p-4 "
@@ -44,7 +44,7 @@ const WorksItems: React.FC<WorksItemsProps> = ({ item }) => {
           className="work-button text-[#767676] inline-flex items-center gap-x-1 pr-5"
         >
           <i className="bx bxl-github work-button-icon text-base transition-[0.4s] translate-x-1 pr-1"></i>
-           Code
+          Code
         </a>
       )}
       {item.demo && (
@@ -60,6 +60,4 @@ const WorksItems: React.FC<WorksItemsProps> = ({ item }) => {
       )}
     </div>
   );
-};
-
-export default WorksItems;
+}
