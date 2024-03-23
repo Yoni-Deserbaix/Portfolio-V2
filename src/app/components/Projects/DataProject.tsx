@@ -28,7 +28,7 @@ export const projectsData: ProjectType[] = [
     image: Work1,
     title: "Portfolio",
     category: "React",
-    languages: ["ReNext.JS", "TypeScript ", "Tailwind"],
+    languages: ["Next.JS", "TypeScript ", "Tailwind"],
     description: "Mon portfolio personnel développé avec Next.JS. Ce site présente mes compétences, expériences et projets de manière interactive et moderne.",
     github: "https://github.com/Yoni-Deserbaix/Portfolio",
     demo: "https://yoni-deserbaix.github.io/Portfolio/",
