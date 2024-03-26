@@ -9,19 +9,13 @@ import Skills from "./components/Skills/Skills";
 export default function Home() {
   return (
     <div>
-      <header>
-        <Header />
-      </header>
-      <main>
-        <Hero />
-        <About />
-        <Projects />
-        <Skills />
-        <Contact />
-        <footer>
-          <Footer />
-        </footer>
-      </main>
+      <Header />
+      <Hero />
+      <About />
+      <Projects />
+      <Skills />
+      <Contact />
+      <Footer />
     </div>
   );
 }
